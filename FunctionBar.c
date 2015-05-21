@@ -96,7 +96,8 @@ void FunctionBar_setLabel(FunctionBar* this, int event, char* text) {
 }
 
 void FunctionBar_draw(FunctionBar* this, char* buffer) {
-   FunctionBar_drawAttr(this, buffer, CRT_colors[FUNCTION_BAR]);
+   // Disabled... don't need it. it's loud
+   // FunctionBar_drawAttr(this, buffer, CRT_colors[FUNCTION_BAR]);
 }
 
 void FunctionBar_drawAttr(FunctionBar* this, char* buffer, int attr) {
